@@ -1,6 +1,10 @@
-Q:Why Cant I Enter A Command
-A:Make Sure You Have No Capital Letters, Also Try Checking The Name By Typing "help"
-Q:I Cant Use File Creator
-A:Make Sure Your File Doesnt Have A Space In It, Also, Make Sure The File Extension Exists
-Q:Why Cant I Type "cd .."
-A:Because Your Ment To Type "cd" Then It Will Ask You "Select The Directory You Want To CD To:" And Then Type ..
+[ FAQ ]
+
+Q: Why can't I enter a command?
+A: Make sure you have no capital letters, also try checking that you've entered the command name properly by typing "help".
+
+Q: I can't use File Creator
+A: Make sure your file name doesn't have a space in it and make sure the file extension exists
+
+Q: Why can't I type "cd .."?
+A: This command works differently. Type "cd" and it will say "Select The Directory You Want To CD To:" and then type ..
