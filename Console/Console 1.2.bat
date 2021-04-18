@@ -195,13 +195,14 @@ cmd
 title Powershell
 powershell
 :warningdel
+set securitycode=%RANDOM%
 echo Warning - This Command Is Dangerous, If This Is You Doing This And Not A Virus, Please Type The Code Below.
 echo.
-echo 4567277
+echo %securitycode%
 echo.
 set /p check=Type The Code Above:
-if %check% == 4567277 goto del
-if not %check% == 4567277 goto b
+if %check% == %securitycode% goto del
+if not %check% == %securitycode% goto b
 :b
 echo Incorrect Code.
 goto a
